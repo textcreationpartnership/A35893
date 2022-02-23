@@ -1,0 +1,940 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Dialogue between the confederate princes concerning the present affairs of Europe</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1691</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 25 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A35893</idno>
+            <idno type="STC">Wing D1327</idno>
+            <idno type="STC">ESTC R6434</idno>
+            <idno type="EEBO-CITATION">12320873</idno>
+            <idno type="OCLC">ocm 12320873</idno>
+            <idno type="VID">59478</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A35893)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 59478)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 936:8)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A Dialogue between the confederate princes concerning the present affairs of Europe</title>
+               </titleStmt>
+               <extent>8 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for H. Hills ... and T. Jones ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1691.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Bodleian Library.</note>
+                  <note>Caption title.</note>
+                  <note>Imprint from colophon.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Europe --  History --  1648-1715 --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-10</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2012-10</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="dialogue">
+            <pb facs="tcp:59478:1"/>
+            <head>A DIALOGUE Between the Confederate Princes Concerning the Preſent AFFAIRS of EUROPE.</head>
+            <sp>
+               <speaker>
+                  <hi>The French King to the</hi> Jeſuits.</speaker>
+               <p>
+                  <bibl>Pſal. 33. v. 9. Eſ. 46. v. 10.</bibl>
+               </p>
+               <p>FOR I ſpeak, and 'tis done— my Counſel ſhall ſtand, and I will do all my Pleaſure.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> Jeſuits <hi>to King</hi> James.</speaker>
+               <p>
+                  <bibl>Pſal. 22. v. 8, 9.</bibl>
+               </p>
+               <p>The <hi>Proteſtants</hi> truſted on the Lord that he would deliver <hi>them,</hi> Let him deliver <hi>them</hi> ſeeing he delighted in <hi>them.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> Vaudois <hi>and the French</hi> Proteſtants.</speaker>
+               <p>
+                  <bibl>Jerem. Lam. c. 4. v. 19.</bibl>
+               </p>
+               <p>Our Perſecutors are ſwifter than the <hi>Ea<g ref="char:EOLhyphen"/>gles</hi> of the Heaven, the perſu'd Us upon the Mountains, they laid wait for Us in the Wilderneſs.</p>
+               <p>
+                  <bibl>Revel. 6. v. 6.10.</bibl>
+               </p>
+               <p>How long, O Lord, Holy and True doſt thou not Judge and Avenge our Blood on them that dwell on the Earth.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Church of</hi> England <hi>ſpeaking by the Mouth of the Biſhop of</hi> Bath <hi>and</hi> Wells.</speaker>
+               <p>
+                  <bibl>
+                     <hi>Mich.</hi> 7. v. 18.</bibl>
+               </p>
+               <p>Rejoyce not againſt Me, O mine Ene<g ref="char:EOLhyphen"/>my: If I am fallen, I will ariſe; if I have ſat in Darkneſs, the Lord will enlighten Me.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Lords and Nobility of</hi> England.</speaker>
+               <p>
+                  <bibl>Pſ. 22. v. 18.</bibl>
+               </p>
+               <p>The <hi>Jeſuits</hi> and the <hi>Monks</hi> part our Garments among them, and caſt Lots up<g ref="char:EOLhyphen"/>on our Veſtures.</p>
+            </sp>
+            <sp>
+               <speaker>Geneva <hi>and the</hi> Suiſſe <hi>Proteſtants.</hi>
+               </speaker>
+               <p>
+                  <bibl>Amos 5. v. 13.</bibl>
+               </p>
+               <p>Therefore the Prudent ſhall keep ſi<g ref="char:EOLunhyphen"/>lence,— for 'tis an Evil time.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Biſhop of St.</hi> Aſaph.</speaker>
+               <p>
+                  <bibl>Mat. 8. v. 26. Heb. 10. v. 37.</bibl>
+               </p>
+               <p>Why are You fearful, O, Yea of little Faith? — For yet a little while, and he that ſhall come will come, and will not tarry.</p>
+               <pb facs="tcp:59478:2"/>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>An Angel to the Prince of</hi> Orange.</speaker>
+               <p>
+                  <bibl>Revela. 14. v. 15.</bibl>
+               </p>
+               <p>And another Angel came out of the Temple, crying with a Loud Voice, to <hi>the Prince of</hi> Orange, Thruſt in thy Sickle in <hi>England</hi> and Reap; for the time is come for thee to Reap; for the Harveſt of the Earth is Rine: Then he thruſt in his Sickle on the Earth, and the Earth was Reaped.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>All thoſe Princes and People that</hi> France <hi>Ty<g ref="char:EOLhyphen"/>ranizeth over.</hi>
+               </speaker>
+               <p>
+                  <bibl>Revela. 12. v. 10.</bibl>
+               </p>
+               <p>Now is come Salvation and Strength, and the Kingdom of our God, and the Power of his Chriſt; <hi>for</hi> James <hi>the Friend and Slave of</hi> Louis <hi>the Fourteenth</hi> is caſt down.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Duke of</hi> Savoy.</speaker>
+               <p>
+                  <bibl>Phil. 2. v. 13.</bibl>
+               </p>
+               <p>For I am in a ſtrait betwixt Two <hi>(that is to ſay,</hi> Cazal <hi>and</hi> Pignerol) having a de<g ref="char:EOLhyphen"/>ſire to depart and to be with the <hi>Emper<g ref="char:EOLhyphen"/>our,</hi> or with the <hi>Spaniard,</hi> which is far better.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Preachers of Paſſive Obedience to King</hi> James.</speaker>
+               <p>
+                  <bibl>Judg. 9. v. 14.</bibl>
+               </p>
+               <p>Then ſaid all the Trees unto the <hi>Brom<g ref="char:EOLhyphen"/>ble,</hi> Come thou and Reign over Us.</p>
+            </sp>
+            <sp>
+               <speaker>All True Engliſhment.</speaker>
+               <p>
+                  <bibl>1. Sam. 8. v. 20.</bibl>
+               </p>
+               <p>
+                  <hi>But now ſo 'tis, that we have another King</hi> over Us, to Judge Us, and go out before Us and Fight our Battels.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Biſhop of</hi> London <hi>to the Parliament.</hi>
+               </speaker>
+               <p>
+                  <bibl>1. Kings, 1. v. 20.</bibl>
+               </p>
+               <p>Now as to Thee, the Eyes of all <hi>Iſrael</hi> are upon Thee, that thou ſhould'ſt tell them who ſhall ſit upon the Throne.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Pope apprehending the Exploits of King</hi> William.</speaker>
+               <p>
+                  <bibl>Jerem. 4. v. 6.</bibl>
+               </p>
+               <p>Ah! the Evils and great Calamities <hi>of the Holy See</hi> come always from the <hi>North.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>King</hi> James <hi>ſpeaking to the</hi> Jeſuits <hi>in the Col<g ref="char:EOLhyphen"/>ledge of</hi> Clermont.</speaker>
+               <p>
+                  <bibl>Eccl. 1. v. 2.</bibl>
+               </p>
+               <p>Vanity of Vanities all is Vanity.</p>
+               <p>
+                  <bibl>Pſal. 84. v. 10.</bibl>
+               </p>
+               <p>For a day in thy Courts is better than a Thouſand <hi>elſewhere,</hi> and I had rather be a Door keeper to the <hi>Jeſuits,</hi> than to wear a Crown amongſt the Tents of the <hi>Wic<g ref="char:EOLhyphen"/>ked Hereticks.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Hamborough.</speaker>
+               <p>
+                  <bibl>1. Epiſt. St. Pet. 5. v. 8.</bibl>
+               </p>
+               <p>Mine Adverſary the Devil walketh a<g ref="char:EOLhyphen"/>bout mee, as a Roaring <hi>Lyon</hi> ſeeking to Devour mee.</p>
+            </sp>
+            <sp>
+               <speaker>Brandebourg <hi>and</hi> Lunebourg <hi>to</hi> Ham<g ref="char:EOLhyphen"/>bourg.</speaker>
+               <p>
+                  <bibl>Pſal. 91. v. 13. 2. Cor. 12. v. 9.</bibl>
+               </p>
+               <p>Thou ſhalt tread upon the <hi>Lyon</hi> and <hi>Ad<g ref="char:EOLhyphen"/>der</hi> — We will make perfect our ſtrength in thy Weekneſs.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The King of</hi> Denmark, <hi>of the Duke of</hi> Hol<g ref="char:EOLhyphen"/>ſtein.</speaker>
+               <p>
+                  <bibl>Pſal. 35. v. 25.</bibl>
+               </p>
+               <p>Ah! ah! Our Soul, We have ſwallow<g ref="char:EOLhyphen"/>ed him up.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Duke of</hi> Holſtein.</speaker>
+               <p>
+                  <bibl>Jerem. 51.44.</bibl>
+               </p>
+               <p>I will bring forth out of thy Mouth, that which thou haſt ſwallowed up.</p>
+               <p>
+                  <bibl>Jerem. 6. v. 4.</bibl>
+               </p>
+               <p>He ſhall reſtore what he hath taken a<g ref="char:EOLhyphen"/>way by Force, and what he ſhall take by force, or what he hath taken by Circum<g ref="char:EOLhyphen"/>vention.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>Monſieur</hi> Mazius <hi>an old Preacher of the King of</hi> Denmark.</speaker>
+               <p>
+                  <bibl>Luke, 5. v. 5.</bibl>
+               </p>
+               <p>
+                  <hi>Maſter,</hi> We have Toyled all the Night and have taken Nothing.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The good Cannons of</hi> Cologne.</speaker>
+               <p>
+                  <bibl>Acts, 1. v. 25.18.20.</bibl>
+               </p>
+               <p>
+                  <hi>We have choſen</hi> Clement <hi>of</hi> Bavaria, that
+<pb facs="tcp:59478:2"/>He may take part of this Miniſtry and A<g ref="char:EOLhyphen"/>poſtleſhip, from which <hi>Judas,</hi> the <hi>Cardi<g ref="char:EOLhyphen"/>nal</hi> of <hi>Furſtemberg</hi> by tranſgreſſion fell, that he might go to his own Place; for he ha<g ref="char:EOLhyphen"/>ving purchaſed Voices with the Reward of Iniquity, His Biſhoprick let another take.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>Cardinal</hi> Fuſtemberg.</speaker>
+               <p>
+                  <bibl>Iſa. 26. v. 18.</bibl>
+               </p>
+               <p>I have Conceived, I have been in Pain, and I have brought forth nothing but Wind.—</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Parliament of</hi> England <hi>to King</hi> James <hi>upon his Abdication.</hi>
+               </speaker>
+               <p>
+                  <bibl>Job, 8. v. 13.14.</bibl>
+               </p>
+               <p>So ſhall it befal all thoſe that forget God; and the deſignes of all Perfidious &amp; Perjur'd perſons ſhall periſh, their hopes ſhall be Cut off, and their Truſt ſhall be a Spiders Web.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Parliament to the Prince of</hi> Orange.</speaker>
+               <p>
+                  <bibl>1. King. 1. v. 39.40.</bibl>
+               </p>
+               <p>And all the People ſaid God ſave King <hi>William.</hi> And all the People came up af<g ref="char:EOLhyphen"/>ter him, and play'd upon Flutes, and re<g ref="char:EOLhyphen"/>joyced with great Joy, to take the Oath of Allegiance to him.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>To the Arch Biſhop of</hi> Canterbury,</speaker>
+               <p>
+                  <bibl>1. Sam. 16. v. 1.</bibl>
+               </p>
+               <p>And the Lord ſaid unto <hi>Samuel,</hi> how long wilt thou mourn for <hi>Saul,</hi> ſeeing I have rejected him from Reigning over <hi>Iſrael.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>All People concerned <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Liberty of Europe and for the True Religion.</hi>
+               </speaker>
+               <p>
+                  <bibl>1. Sam. 10. v. 24.</bibl>
+               </p>
+               <p>See you him whom the Lord hath Cho<g ref="char:EOLhyphen"/>ſen, for their is none like him among all the People.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>God touching King</hi> William.</speaker>
+               <p>
+                  <bibl>Pſal. 4. v. 3. 1. Sam. 16. v. 12.</bibl>
+               </p>
+               <p>But know that the Lord hath Choſen his well-beloved, And the Lord ſaid unto <hi>Samuel,</hi> Ariſe, Anoint him; for this is He.</p>
+               <p>
+                  <bibl>Ezech. 2. v. 6. c. 3. v. 8.</bibl>
+               </p>
+               <p>And thou, Son of Man, be not afraid of them, neither be afraid of their words, tho <hi>Bryers</hi> and <hi>Thorns</hi> be with thee, and thou doſt dwell among <hi>Jacobites,</hi> Prea<g ref="char:EOLhyphen"/>chers of <hi>Paſſive Obedience:</hi> Inventors of the diſtinction between a King <hi>de Jure</hi> and <hi>de Facto;</hi> be not afraid of their words; for behold, I have made thy Face ſtrong againſt their Faces, and thy Forehead ſtrong againſt their Forheads.</p>
+            </sp>
+            <sp>
+               <speaker>England <hi>with Roſes in her hands.</hi>
+               </speaker>
+               <p>
+                  <bibl>Canti. 2. v. 12.</bibl>
+               </p>
+               <p>The Flowers appear on the Earth, the time of the ſinging of Birds is come.</p>
+               <p>
+                  <bibl>Eccl. 50. v. 2.8.</bibl>
+               </p>
+               <p>Under <hi>William</hi> have been laid the Foun<g ref="char:EOLhyphen"/>dations, which defend the Temple of the Lord, He is as the Flowers of Roſes in the ſpring time.</p>
+            </sp>
+            <sp>
+               <speaker>Ireland holding her Harpe.</speaker>
+               <p>
+                  <bibl>Pſal. 137. v. 1.2. Pſ. 108. v. 1.2.3.</bibl>
+               </p>
+               <p>We wept when we remembred <hi>Sion,</hi> We hanged our Harpes upon the Wil<g ref="char:EOLhyphen"/>lowes; but now my heat is fixed. Awake Pſalter and Harp; I my ſelf will awake early, I will praiſe thee O Lord among the People: and I will ſing Praiſes unto thee among the Nations.</p>
+            </sp>
+            <sp>
+               <speaker>Sco<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> and <hi>with her</hi> Thiſtles.</speaker>
+               <p>
+                  <bibl>Judg. 8. v. 7. Mat. 7. v. 16.</bibl>
+               </p>
+               <p>Thou ſhalt, like <hi>Gideon,</hi> tear the Fleſh of thine Enemies with <hi>Thornes</hi> and <hi>Thiſtles;</hi> but my <hi>Thiſtles</hi> ſhall bear <hi>Figgs</hi> to thee.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>King</hi> William <hi>to the Highlanders and Fana<g ref="char:EOLhyphen"/>ticks in</hi> Scotland.</speaker>
+               <p>
+                  <bibl>Heb. 6. v 8.9.</bibl>
+               </p>
+               <p>That Earth which beareth <hi>Thornes</hi> and <hi>Thiſtles</hi> is rejected, and is nigh unto Cur<g ref="char:EOLhyphen"/>ſing, whoſe End is to be burned. But beloved, we are perſwaded better things of You, and things that accompany Sal<g ref="char:EOLhyphen"/>vation.</p>
+               <pb facs="tcp:59478:3"/>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Duke of</hi> Savoy.</speaker>
+               <p>
+                  <bibl>Pſal. 2. v. 3.</bibl>
+               </p>
+               <p>Let us now break the Bands of <hi>France</hi> aſunder, and caſt away his Cords from Us.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The King of</hi> England <hi>to that Duke.</hi>
+               </speaker>
+               <p>
+                  <bibl>Ruth, 1. v. 16.17.</bibl>
+               </p>
+               <p>Whither thou go'ſt I will go, and where thou lodgeſt I will lodge; thy People is my People, and thy God is my God; where thou dieſt, will I die, and there will I be buried, the Lord do ſo to me, and more alſo, if ought but Death part Thee and Me.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Emperour haſtning to Crown his ſon King of the</hi> Romans.</speaker>
+               <p>
+                  <bibl>2. Mac. 9. v. 25.</bibl>
+               </p>
+               <p>And conſidering moreover, that all the Neighboring Potentates are at War round about me, wayring for an Opportunity, and expecting what may happen, I have declar'd my ſon, my Succeſſour.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The houſe of</hi> Lavembourg.</speaker>
+               <p>
+                  <bibl>Amos, 3. v. 15.</bibl>
+               </p>
+               <p>And the great houſes ſhall have an End, ſaith the Lord.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The three branches of the Houſe of</hi> Brunſwick.</speaker>
+               <p>
+                  <bibl>Eccle. 4. v. 12.</bibl>
+               </p>
+               <p>A threefold Cord, is not quickly bro<g ref="char:EOLhyphen"/>ken, and we will take care of <hi>Lyvembourg.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Electors of</hi> Mayence, Treves, <hi>and the Biſhop of</hi> Liege; <hi>to the</hi> Emperour.</speaker>
+               <p>
+                  <bibl>Pſal. 80. v. 6.</bibl>
+               </p>
+               <p>Thou haſt made Us a ſtrife unto our Neighbours, and our Enemy <hi>the King of</hi> France laugheth at Us.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Dake of</hi> Wirtemberg, <hi>the Marquis of</hi> Dourlack, <hi>the Biſhops of</hi> Worms <hi>and</hi> Spire.</speaker>
+               <p>
+                  <bibl>Haba. 1. v. 13.14.</bibl>
+               </p>
+               <p>Holdeſt Thou thy Tongue O Lord, when the wicked <hi>French King</hi> devoureth the man that is more righteous than He; and haſt thou made men as the Fiſhes of the <hi>Sea,</hi> where the great Ones devour the</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>All the Confederates to the</hi> Emperour.</speaker>
+               <p>
+                  <bibl>Judith, 7. v. 24.</bibl>
+               </p>
+               <p>Let God be Judge between You and Us; for You have done Us great Injury in not having made a Peace with the <hi>Aſſyriens, (Turcks.)</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Lorrain <hi>upon the Death of her Prince.</hi>
+               </speaker>
+               <p>
+                  <bibl>2. King. 1. v. 12.</bibl>
+               </p>
+               <p>Oh my Father! my Father!</p>
+            </sp>
+            <sp>
+               <speaker>The Germans, and Confederates upon the death of the ſame.</speaker>
+               <p>O the Chariots of <hi>Iſrael,</hi> and its Horſe<g ref="char:EOLhyphen"/>men.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> Emperour <hi>to the King of</hi> Poland.</speaker>
+               <p>
+                  <bibl>1. King. 22. v. 4.</bibl>
+               </p>
+               <p>Wilt thou go with me to Battel to <hi>Ra<g ref="char:EOLhyphen"/>moth-Gilead?</hi> (the <hi>Port.</hi>)</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> Venetians <hi>to the King of</hi> Poland.</speaker>
+               <p>
+                  <bibl>Luke, 9. v. 62.</bibl>
+               </p>
+               <p>No man having put his hand to the Plough, and looking back is fit for the Kingdom of Heaven.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Hollanders to the King of</hi> Danemark.</speaker>
+               <p>
+                  <bibl>Revel. 3. v. 15.16.</bibl>
+               </p>
+               <p>I know thy Works, that thou art nei<g ref="char:EOLhyphen"/>ther Cold nor Hot, <hi>for the League,</hi> ſo then, becauſe thou art luke warme, I will ſpue the out of my Mouth.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Confedarates to the King of</hi> Sweden.</speaker>
+               <p>
+                  <bibl>2. Tim. 4. v. 10.</bibl>
+               </p>
+               <p>
+                  <hi>Demas</hi> hath forſaken Us, having loved this preſent World.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The King of</hi> England <hi>to the</hi> Suiſſes.</speaker>
+               <p>
+                  <bibl>1. King. 18. v. 21.</bibl>
+               </p>
+               <p>How long halt Ye between two Opi<g ref="char:EOLhyphen"/>nions? If the Lord be God follow him: But if <hi>Baal</hi> be God — then follow him.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> Vaudois.</speaker>
+               <p>
+                  <bibl>Pſal 46. v. 7.</bibl>
+               </p>
+               <p>The Lord of Hoſt is with Us, the God of <hi>Jacob</hi> is our Refuge.</p>
+               <pb n="5" facs="tcp:59478:3"/>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> French <hi>concerning the</hi> Vaudois.</speaker>
+               <p>
+                  <bibl>Exod. 3. v. 25.</bibl>
+               </p>
+               <p>Let us flee before theſe People for the Lord Fighteth for them.</p>
+            </sp>
+            <sp>
+               <speaker>Louis <hi>the XIV. to the Duke</hi> de Chaulnes.</speaker>
+               <p>
+                  <bibl>Luke 13. v. 32.</bibl>
+               </p>
+               <p>Go you and tell that <hi>Fox, Pope Ottoboni,</hi> that he ought to have reſpect for Me; for behold I caſt out Devils, driving out of my Countrey, <hi>Carteſians, Janſeniſts,</hi> and <hi>Huguenots.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Pope to Cardinal</hi> Fourbin.</speaker>
+               <p>
+                  <bibl>Mat. 4. v. 9.</bibl>
+               </p>
+               <p>All theſe things will I grant to the King of <hi>France,</hi> if he will fall down and wor<g ref="char:EOLhyphen"/>ſhip Me.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> French <hi>King to</hi> Tourville.</speaker>
+               <p>
+                  <bibl>Joſ. 6. v. 17.</bibl>
+               </p>
+               <p>Let the City of <hi>London</hi> be accurſt, and all the things that are therein, onely <hi>Ra<g ref="char:EOLhyphen"/>hab</hi> the Harlot (the Dutcheſs of <hi>Mazarin</hi>) ſhall live, ſhe and all that are with her in the houſe, becauſe ſhe carefully hid the Spics that we ſent.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> Hollanders <hi>to</hi> Torrington <hi>and the Red Squadron.</hi>
+               </speaker>
+               <p>
+                  <bibl>Pſ. 6. v. 6.</bibl>
+               </p>
+               <p>The Children of <hi>Ephraim</hi> turn'd their backs in the day of Battel.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The true</hi> Engliſh.</speaker>
+               <p>
+                  <bibl>Joſu. 7. v. 8.</bibl>
+               </p>
+               <p>O Lord! what ſhall We ſay when <hi>Iſrael</hi> turneth their backs before their Ene<g ref="char:EOLhyphen"/>mies! For the <hi>Canaanites,</hi> the <hi>French,</hi> the <hi>Jacobites,</hi> the Drs. <hi>of Paſſive obedience</hi> ſhall hear of it, and ſhall environ Us round, and Cut off our Name from the Earth!</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>King</hi> William <hi>concerning my Lord</hi> Tor<g ref="char:EOLhyphen"/>rington.</speaker>
+               <p>
+                  <bibl>1 Kings, 1. v. 52.</bibl>
+               </p>
+               <p>If for the time to come He will ſhew himſelf a Worthy Man, there ſhall not an hair of him fall to the Earth: But if Wickedneſs ſhall be found in him, He ſhall dye.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Duke of</hi> Saxony, <hi>to the Duke of</hi> Bavaria Tobit,</speaker>
+               <p>
+                  <bibl>7. v. 11. Luke, 12. v. 19.</bibl>
+               </p>
+               <p>Eat, drink and be joyful, and take thy Reſt. Eat, drink and be merry.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>Prince</hi> Lowis <hi>of</hi> Baden, <hi>concerning the Army on the</hi> Rhine.</speaker>
+               <p>
+                  <bibl>Matt. 9. v. 36.</bibl>
+               </p>
+               <p>I ſaw the <hi>German</hi> Army ſcatter'd upon the <hi>Rhine,</hi> as Sheep having no Shepherd.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Duke of</hi> Bavaria.</speaker>
+               <p>
+                  <bibl>2 Cor. 2. v. 16. Exod. 3. v. 11.</bibl>
+               </p>
+               <p>Who is ſufficient for theſe things! Who am I, that I ſhould go againſt the <hi>Pharaoh</hi> of <hi>France,</hi> and that I ſhould bring forth the <hi>Germans</hi> out of <hi>Egypt?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Count</hi> de Caſtanaga, <hi>concerning the A<g ref="char:EOLhyphen"/>my of</hi> 66000 <hi>Men encamped at</hi> Hall.</speaker>
+               <p>
+                  <bibl>Gen. 24. v. 54.</bibl>
+               </p>
+               <p>And <hi>Brandenbourgh</hi> and <hi>Waldeck</hi> did Eat and Drink, they and the Men that were with them, and tarried there all night <hi>(in the Spaniſh Netherlands.)</hi>
+               </p>
+               <p>
+                  <bibl>Judges, 9. v. 27.</bibl>
+               </p>
+               <p>And they went out into the Fields, and gathered their Vineyards, and trod the Grapes and made merry, and did Eat and drink and curſed <hi>Abimelec (the French King)</hi> and that was all that they did.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> Landtgrave <hi>of</hi> Heſſe <hi>concerning the ſame Army.</hi>
+               </speaker>
+               <p>
+                  <bibl>Mat. 9. v. 37.</bibl>
+               </p>
+               <p>The Harveſt truely is plenteous, but the Labourers are few: Pray Ye therefore the Lord of the Harveſt, that He will ſend forth Labourers into his harveſt.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> French <hi>King to the Proteſtans Cantons.</hi>
+               </speaker>
+               <p>
+                  <bibl>1 Macch. 10. v. 25, 26.</bibl>
+               </p>
+               <p>The King of <hi>France</hi> to the Nation of the <hi>Suiſſe</hi> ſendeth Greeting; Where as Ye have kept Covenant with Us, and con<g ref="char:EOLhyphen"/>tinued in our Friendſhip, not joyning your
+<pb n="6" facs="tcp:59478:4"/>ſelves with our Enemies, We have heard hereof and are Glad.</p>
+               <p>
+                  <bibl>v. 27.</bibl>
+               </p>
+               <p>Wherefore now continue ſtill to be faithful unto Us; and we will recompenſe You, for the things you do in our behalf.</p>
+               <p>
+                  <bibl>v. 28, 29.</bibl>
+               </p>
+               <p>I will beſtow Penſions upon You, and will abate the Price of Salt.</p>
+               <p>
+                  <bibl>v. 36, 37.</bibl>
+               </p>
+               <p>I will raiſe 30000 Men amongſt You, under good Pay, I will ſend them into the beſt Garriſons, and let them walk in their own wayes and be govern'd by their own Laws, and their Captains ſhall be choſen from amongſt themſelves. They ſhall likewiſe be furniſhed at the King's Expence for fortifying the Paſſage of <hi>Aouſt.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>The Cantons.</speaker>
+               <p>
+                  <bibl>v. 46, 47.</bibl>
+               </p>
+               <p>When they had heard theſe words, they believed them not, and would not accept of them; becauſe they remember'd the great Evil that he had done among them, and that he had greatly oppreſſed them, in uſurpeing the <hi>Franche Comté;</hi> and in building <hi>Huningen.</hi> But with <hi>William the III.</hi> they were well pleaſed, becauſe he was the firſt that entreated of true Peace with them.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> Engliſh <hi>to the Queen Dowager.</hi>
+               </speaker>
+               <p>
+                  <bibl>Prov. 27. v. 10.</bibl>
+               </p>
+               <p>Better is a Neighbour that is near, than a Brother a far off.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Princeſſe of</hi> Denmark, <hi>concerning</hi> Mary <hi>of</hi> Modena.</speaker>
+               <p>
+                  <bibl>Eſa. 66. v. 7, 8.</bibl>
+               </p>
+               <p>Before ſhe travailed ſhe brought forth: before her paines came, She was deli<g ref="char:EOLhyphen"/>vered of a Man-child. Who hath heard ſuch a thing! Who hath ſeen ſuch things!</p>
+            </sp>
+            <sp>
+               <speaker>Same Dutch-Merchants.</speaker>
+               <p>
+                  <bibl>Acts. 19. v. 25.</bibl>
+               </p>
+               <p>Who being met together ſaid, Sirs, You know that our Wealth proceeds from Trade. Now You ſee and hear, that our Craft is in great danger to be ſet at nought, if we continue to War with <hi>France.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>Saint</hi> Didier.</speaker>
+               <p>
+                  <bibl>Mat. 5. v. 25.</bibl>
+               </p>
+               <p>Agree quickly with thine Adverſary <hi>Louis</hi> the XIV.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Count a</hi> Avaux.</speaker>
+               <p>
+                  <bibl>1 Macc. 6. v. 56.</bibl>
+               </p>
+               <p>Now therefore ſhake hands with the <hi>Hollanders,</hi> and make Peace with them, and with all their Nation.</p>
+               <p>1 Theſſal. 5. v. 3.</p>
+               <p>And when they ſhall ſay Peace, and Safety, then ſudden deſtruction cometh upon them, as travail upon a Woman with Child; and they ſhall not eſcape.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>Myn Heer van</hi> Cirters <hi>to the</hi> Hollanders.</speaker>
+               <p>
+                  <bibl>1 Macc. 6. v. 61.62.</bibl>
+               </p>
+               <p>The King of <hi>France</hi> ſhall ſwear unto You, and will ſoon after break his Oath.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>Myn Heer</hi> Odyke.</speaker>
+               <p>
+                  <bibl>Pſ. 28. v. 3.</bibl>
+               </p>
+               <p>Have no Dealings with the Wicked, nor with the Workers of Iniquity who ſpeak Peace to their Neighbours, but miſ<g ref="char:EOLhyphen"/>chief is in their hearts.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>Monſieur</hi> Hope.</speaker>
+               <p>
+                  <bibl>Iſa. 57. v. 21.</bibl>
+               </p>
+               <p>There is no Peace, ſaith my God, to the Wicked.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>Monſieur</hi> Dickvelt.</speaker>
+               <p>
+                  <bibl>2 Cor. 6. v. 5.</bibl>
+               </p>
+               <p>What Concord hath Chriſt with <hi>Belial?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>Monſieur</hi> Henſius.</speaker>
+               <p>
+                  <bibl>Eccl. 13. v. 19.</bibl>
+               </p>
+               <p>What Agreement can there be between the Wolfe and the Sheep, muchleſs be<g ref="char:EOLhyphen"/>tween the wicked, and that him ſeareth God?</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The truſty</hi> Blancart <hi>to the</hi> French <hi>King.</hi>
+               </speaker>
+               <p>
+                  <bibl>Acts 13. v. 10.</bibl>
+               </p>
+               <p>O full of all Subtlety and all Miſchief,
+<pb n="7" facs="tcp:59478:4"/>thou Child of the Devil, thou Enemy of all Righteouſneſs, wilt thou not ceaſe to pervert the Right ways of the Lord?</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> Dutch <hi>to the</hi> Engliſh.</speaker>
+               <p>
+                  <bibl>Mat. 12. v. 24.</bibl>
+               </p>
+               <p>Every Kingdom divided againſt it ſelf is brought to Deſolation; and every City or Houſe divided againſt it ſelf ſhall not ſtand.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Elector of</hi> Brandenbourg <hi>to the Parlia<g ref="char:EOLhyphen"/>ment of</hi> England.</speaker>
+               <p>
+                  <bibl>Gal. 3. v. 3.</bibl>
+               </p>
+               <p>Are You ſo fooliſh? haveing begun in the Spirit, are you now made perfect by the Fleſh?</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> Torys <hi>to the</hi> Whiggs.</speaker>
+               <p>
+                  <bibl>Gal. 5. v. 13.</bibl>
+               </p>
+               <p>Brethren you have been called unto Li<g ref="char:EOLhyphen"/>berty; but uſe not Liberty for a Cloak to Wickedneſs.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> Whiggs <hi>to the</hi> Tories.</speaker>
+               <p>
+                  <bibl>Deuter. 27. v. 26.</bibl>
+               </p>
+               <p>Curſed be He that confirmeth not all the words of the Law, to do them.</p>
+            </sp>
+            <sp>
+               <speaker>A Trimmer.</speaker>
+               <p>
+                  <bibl>Geneſs 13. v. 8. Mat. 26. v. 15.</bibl>
+               </p>
+               <p>Let there be no Strife between Us, I pray thee, for We are Brethren; but what will you give me, and I will deliver him unto you.</p>
+            </sp>
+            <sp>
+               <speaker>A Wigg.</speaker>
+               <p>
+                  <bibl>Mat. 26. v. 8. Iſ. 8. v. 20.</bibl>
+               </p>
+               <p>But in the beginning it was not ſo. To the Law and to the Teſtimony.</p>
+               <p>
+                  <bibl>Job. 8. v. 8.</bibl>
+               </p>
+               <p>For, enquire, I pray thee, of the for<g ref="char:EOLhyphen"/>mer Age, and prepare thy ſelf to the ſearch of their Fathers.</p>
+            </sp>
+            <sp>
+               <speaker>A Patron of the good Old-Cauſe.</speaker>
+               <p>
+                  <bibl>Iſ. 59. v. 9.</bibl>
+               </p>
+               <p>Cloth thee, Cloth thee, Cloth thee with force, to Arme of the Lord; awake thou as in antient days, as in Ages paſt.</p>
+            </sp>
+            <sp>
+               <speaker>A Tory.</speaker>
+               <p>
+                  <bibl>Eccl. 20. v. 30. 2 Cor. 3. v. 6. ch. 5. v. 17.</bibl>
+               </p>
+               <p>Defile not your ſelves in the Steps of your Forefathers. The Law is a <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aini<g ref="char:EOLhyphen"/>ſtry of Death; for the Letter killeth, but the Spirit giveth Life. There where the Spirit is, there is Truth alſo, the Old things are paſſed away and all things are made New.</p>
+            </sp>
+            <sp>
+               <speaker>A Trimming Clergy-Man.</speaker>
+               <p>
+                  <bibl>Acts 5. v. 38, 39.</bibl>
+               </p>
+               <p>For if this Counſel, or this Work of <hi>William</hi> the III. be of Men, it will come to nought: but if it be of God, Ye cannot overthrow it.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>Dr.</hi> Tillotſon <hi>to the People.</hi>
+               </speaker>
+               <p>
+                  <bibl>Gal. 5. v. 15.</bibl>
+               </p>
+               <p>But if you bite and devour one ano<g ref="char:EOLhyphen"/>ther, take heed that ye be not conſumed one of another.</p>
+            </sp>
+            <sp>
+               <speaker>The ſame to the King.</speaker>
+               <p>
+                  <bibl>Exod. 18. v. 21, 23.</bibl>
+               </p>
+               <p>Thou ſhall provide out of all the Peo<g ref="char:EOLhyphen"/>ple, able Men, ſuch as fear God, Men of Truth hateing covetouſneſs; and place ſuch over them, and give ſuch Employ<g ref="char:EOLhyphen"/>ments, ſo ſhall all the People go to their Place in peace.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Prayers of</hi> Europe <hi>againſt the</hi> French <hi>King.</hi>
+               </speaker>
+               <p>
+                  <bibl>Pſ. 74. v. 12, 13, 14.</bibl>
+               </p>
+               <p>O God! who art my King of old, working Salvation in the midſt of the Earth, deſtroy thou this <hi>Behemoth,</hi> and break the Head of this <hi>Leviathan.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> Janſeniſts, <hi>the</hi> Proteſtants <hi>&amp; the</hi> Car<g ref="char:EOLhyphen"/>teſians, <hi>concerning the Fall of</hi> Behe<g ref="char:EOLhyphen"/>moth.</speaker>
+               <p>
+                  <bibl>Iſ. 14. v. 13, 14.</bibl>
+               </p>
+               <p>Thou haſt ſaid in thine heart, I will aſcend into Heaven, I will exalt my Throne above the Starrs of God. I will be like the moſt High.</p>
+               <pb n="8" facs="tcp:59478:5"/>
+               <p>
+                  <bibl>v. 12.</bibl>
+               </p>
+               <p>How art thou fallen from Heaven, ô Lucifer, Son of the morning? how art thou cut down to the Ground, which didſt weaken the Nations.</p>
+               <p>
+                  <bibl>v. 16.</bibl>
+               </p>
+               <p>They that ſee thee, they ſhall narrowly look upon thee, and conſider thee, ſaying, is not this <hi>Louis the Great</hi> that made the Earth to tremble, that did ſhake King<g ref="char:EOLhyphen"/>doms?</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> Venetians, <hi>and the Duke of</hi> Tuſcany, <hi>whiſpering him in the Ear.</hi>
+               </speaker>
+               <p>
+                  <bibl>Nahum. 3. v. 19.</bibl>
+               </p>
+               <p>There is no healing of thy Bruiſe: thy wound is grievous: all that hear the bruit of thee ſhall clap the hands over thee: for upon whom hath not thy Wickedneſs paſſed continually?</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The</hi> Jacobites, <hi>the Preachers of Paſſive Obe<g ref="char:EOLhyphen"/>dience, the Inventors of the Diſtinction of a King</hi> de Jure &amp; de Facto, <hi>the Mur<g ref="char:EOLhyphen"/>murers, the</hi> French <hi>Penſioners.</hi>
+               </speaker>
+               <p>
+                  <bibl>Revel. 18. v. 9.</bibl>
+               </p>
+               <p>They ſhall weep and wayle and put on Mourning for the fall of <hi>Behemot,</hi> beating their Breaſts and ſaying; alas! how in one inſtant ſo great Richeſs are come to Nought!</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Emporour touching</hi> Belgrade.</speaker>
+               <p>
+                  <bibl>Eccl. 38. v. 28.</bibl>
+               </p>
+               <p>Mine yeſterday, the Turks to day.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>The Duke of</hi> Lorrains <hi>Ghoſt to the Empe<g ref="char:EOLhyphen"/>rour.</hi>
+               </speaker>
+               <p>
+                  <bibl>Haggai. 2. v. 5. Eccl. 22. v. 6.</bibl>
+               </p>
+               <p>Yet now be ſtrong, ſaith the Lord, and leave off Muſick in the time of Mourn<g ref="char:EOLhyphen"/>ing.</p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>Prince</hi> Louis <hi>of</hi> Baden <hi>to his Imperial Ma<g ref="char:EOLhyphen"/>jeſty.</hi>
+               </speaker>
+               <p>
+                  <bibl>2 Cor. 11. v. 13. Eſdras 4. v. 15.</bibl>
+               </p>
+               <p>
+                  <bibl>2 Macch. 4. v. 50.</bibl>
+               </p>
+               <p>
+                  <hi>The Jeſuits</hi> are Deceitful Workers; They allways cauſe vexation, &amp; trouble to Princes; and by reaſon of thoſe that are in great Place and credit they continue dayly in their Power, encreaſing in ma<g ref="char:EOLhyphen"/>lice, and being great Traytors to your Majeſty.</p>
+               <p>
+                  <bibl>Eccl. 40. v. 9, 10.</bibl>
+               </p>
+               <p>Murders, Strifes, Battels, Aſſaults, Fa<g ref="char:EOLhyphen"/>mine, Deſtruction, Puniſhments, all theſe things are ordained for the Unjuſt, and by their Fault is the Deluge come, which hath overflowed <hi>Hungary.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>
+                  <hi>Monſieur</hi> Hofman, <hi>the Emperours Secretary, concerning the</hi> Engliſh <hi>Court.</hi>
+               </speaker>
+               <p>
+                  <bibl>Kings 22. v. 14.</bibl>
+               </p>
+               <p>What I have heard is true, and as true as God liveth.</p>
+            </sp>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>LONDON.</hi> Printed for <hi>H. Hills,</hi> in <hi>Black-Fryers,</hi> and <hi>T. Jones,</hi> without <hi>Temple-Bar.</hi> 1691.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
